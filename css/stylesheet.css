@@ -12,6 +12,14 @@ header {
   padding-top: 64px;
 }
 
+.my-color {
+  color: rgb(229, 231, 67);
+  background-color: rgb(206, 180, 235);
+}
+.my-border {
+  border-bottom: 4px solid #f59a00;
+}
+
 header h1,
 header p {
   margin: 0;
@@ -64,6 +72,24 @@ header img {
   100% {
     transform: translateX(0px) rotate(360deg);
   }
+}
+
+.btn3 {
+  text-decoration: none;
+  text-align: center;
+  background: rgb(136, 231, 187);
+  color: black;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn3:hover {
+  opacity: 0.9;
 }
 
 .features img {
